@@ -38,6 +38,6 @@ jobs:
         with:
           app-name: 'example-linux-function-app-jafar'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_85D1DEA5C6604F649F86A4D45DFA1733 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3B5B5E13F0234F5CB5BACA9600B7A650 }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
